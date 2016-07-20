@@ -1,0 +1,30 @@
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.row-footer{
+    background-color: #f2f2f2;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron{
+    display: flex;
+    padding: 70px 30px;
+    margin: 0px auto;
+    background-image: url("http://www.newhdwallpapers.in/wp-content/uploads/2014/11/Tasty-Food-Dessert-Strawberries-Sweet-Waffle-HD.jpg");
+
+}
+address{
+  font-size: 80%;
+  margin: 0px;
+  color:#0f0f0f;
+}
