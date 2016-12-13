@@ -54,7 +54,9 @@
 
       <ul class="nav navbar-nav navbar-right">
         <li><a data-toggle="modal" data-target="#loginModal">
-          <span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <span class="glyphicon glyphicon-log-in"></span> Login</a>
+
+        </li>
       </ul>
 
 
@@ -91,7 +93,7 @@
         </div>
     </div>
     </div>
-</div>
+
 
 
 
@@ -112,10 +114,10 @@
                   <p style="padding:20px;"></p>
                 <!--  <img src="img/logo.png" class="img-responsive"> -->
                 </div>
-              <div class="col-xs-12 col-sm-2">
-                <p style="padding:40px;"></p>
-                <a type="button" class="btn btn-warning btn-block"  data-toggle="modal" data-target="#reserveform">Reserve table</a>
-              </div>
+                <div class="col-xs-12 col-sm-2" id="reserve">
+                  <p style="padding:40px;"></p>
+                  <a type="button" class="btn btn-warning btn-block" >Reserve table</a>
+                </div>
             </div>
         </div>
     </header>
@@ -379,6 +381,12 @@
       });
         $("#carousel-play").click(function(){
           $("#mycarousel").carousel('cycle');
+        });
+      });
+      $(document).ready(function(){
+        $("#reserve").click(function(){
+          $("#reserveform").modal('toggle');
+
         });
       });
     </script>
